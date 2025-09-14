@@ -1,0 +1,15 @@
+name: "bayesianmachinelearning"
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pymc>=5 
+  - ipywidgets 
+  - tqdm 
+  - seaborn 
+  - ipykernel 
+  - preliz
+  - scikit-learn
+
+prefix: "/opt/conda"
