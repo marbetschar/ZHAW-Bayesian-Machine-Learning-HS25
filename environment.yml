@@ -11,5 +11,6 @@ dependencies:
   - ipykernel 
   - preliz
   - scikit-learn
+  - setuptools>=60,<70
 
 prefix: "/opt/conda"
